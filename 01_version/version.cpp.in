@@ -1,0 +1,22 @@
+#include "version.hpp"
+
+std::string getMyProjectVersion()
+{
+  return "@MyProject_VERSION@";
+}
+uint16_t getMyProjectVersionMajor()
+{
+  return @MyProject_VERSION_MAJOR@;
+}
+uint16_t getMyProjectVersionMinor()
+{
+  return @MyProject_VERSION_MINOR@ +0;
+}
+uint16_t getMyProjectVersionPatch()
+{
+  return @MyProject_VERSION_PATCH@ +0;
+}
+uint16_t getMyProjectVersionTweak()
+{
+  return @MyProject_VERSION_TWEAK@ +0;
+}
